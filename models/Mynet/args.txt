@@ -1,0 +1,11 @@
+name: Mynet
+epochs: 10
+batch_size: 6
+lr: 0.0001
+weight: [0.16, 0.84]
+gamma: 0.9
+betas: (0.9, 0.999)
+eps: 1e-08
+weight_decay: 0.0005
+training_dir: VOC2012_240/train/sourceA/
+test_dir: VOC2012_240/test/sourceA/
